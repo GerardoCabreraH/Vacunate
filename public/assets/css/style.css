@@ -1,0 +1,416 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #7b889e;
+    font-weight: 400;
+}
+
+.figura {
+    display: block;
+}
+
+.titlePrimary {
+    color: #1f3e72;
+    font-weight: 800;
+    font-size: 48px;
+    margin: 25px 0;
+}
+
+.titleSecondary {
+    color: #1f3e72;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbarPageLogo {
+    color: #3050cd;
+}
+
+/*.navbarPage {
+    background-color: #ffffff;
+}*/
+
+.navbarPage {
+    background: rgb(255, 255, 255, 0.8);
+}
+
+.navbarPage::before {
+    content: '';
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.cardDate {
+    background: rgb(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+}
+
+.cardDate::before {
+    content: '';
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.controlCarrousel {
+    background: linear-gradient(90deg, #0c94e5, #1a84e2, #2a70dd);
+}
+
+.hero {
+    background-color: #ffffff;
+    background-repeat: none;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 750px;
+}
+
+.hero::before {
+    content: "";
+    background-image: url('../img/medic-1.png'), linear-gradient(90deg, #0c94e5, #1a84e2, #2a70dd);
+    background-repeat: none;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 850px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.trianguloHeader1 {
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid #f4f6fb;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    position: absolute;
+    top: -13%;
+    left: 0;
+}
+
+.trianguloHeader2 {
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid #f4f6fb;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    position: absolute;
+    top: 73%;
+    left: 41%;
+    right: -41%;
+    display: block;
+}
+
+.hero-content {
+    margin-top: 100px;
+}
+
+.hero-info {
+    width: 50%;
+}
+
+.icon-hero-info {
+    font-weight: 400;
+    background-color: #fff8df;
+    color: #FFD700;
+    font-size: 24px;
+}
+
+.hero-date {
+    margin-top: 115px;
+}
+
+.icon-vaccination {
+    font-weight: 400;
+    background-color: #f0f4ff;
+    color: #3151cf;
+    font-size: 24px;
+}
+
+.background-dark {
+    padding: 100px 25px;
+    background-color: #eef3fa;
+}
+
+.background {
+    padding: 100px 25px;
+}
+
+.img-logos {
+    width: 200px;
+    height: 50px;
+}
+
+.bloque-motivos {
+    width: 50%;
+    float: left;
+}
+
+.bloque-señal {
+    width: 50%;
+    float: right;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #f4f6fb;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    position: relative;
+    left: 29%;
+    top: 0;
+}
+
+.linea {
+    position: absolute;
+    border: 2px solid #fafaff;
+    width: 100%;
+    left: 0;
+    top: 32.5%;
+}
+
+.bloque-señal2 {
+    width: 50%;
+    float: left;
+}
+
+.bloque-recomendaciones {
+    width: 50%;
+    float: right;
+}
+
+.triangulo2 {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #f4f6fb;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.linea2 {
+    position: absolute;
+    border: 2px solid #fafaff;
+    width: 100%;
+    top: 9.7%;
+    left: 1.5%;
+}
+
+.fondoAzul {
+    margin-top: 20px;
+    background-image: url('../img/medic-2.png'), linear-gradient(90deg, #0c94e5, #1a84e2, #2a70dd);
+    background-repeat: none;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+}
+
+.bloque-contacto {
+    width: 50%;
+    float: left;
+}
+
+.bloque-señal3 {
+    width: 50%;
+    float: right;
+}
+
+.triangulo3 {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #f4f6fb;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    position: relative;
+    left: 68%;
+    top: 0;
+}
+
+.linea3 {
+    position: absolute;
+    border: 2px solid #fafaff;
+    width: 100%;
+    top: 9.5%;
+    left: 1.5%;
+}
+
+.fondoAzul2 {
+    margin-top: 50px;
+    /*margin-left: 100px;*/
+    background-image: url('../img/medic-3.png'), linear-gradient(90deg, #0c94e5, #1a84e2, #2a70dd);
+    background-repeat: none;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+}
+
+.btn-vaccination {
+    background-color: #f1f5ff;
+    color: #3555d3;
+}
+
+.btn-vaccination:hover {
+    background-color: #3555d3;
+    color: #f1f5ff;
+}
+
+.btn-vaccination-2 {
+    background-color: #3555d3;
+    color: #f1f5ff;
+}
+
+.btn-vaccination-2:hover {
+    background-color: #f1f5ff;
+    color: #3555d3;
+}
+
+.footer {
+    background-color: #eef3ff;
+    color: #75839a;
+    padding: 50px 0;
+    position: relative;
+}
+
+.footer-primary {
+    display: block;
+}
+
+.footer-copyright {
+    margin-top: 50px;
+}
+
+.trianguloFooter {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #e2e9f9;
+    position: absolute;
+    opacity: 0.5;
+    top: -100%;
+    left: 62%;
+}
+
+textarea {
+    resize: none;
+}
+
+.mt-76 {
+    margin: 76px 0 0 0;
+}
+
+@media only screen and (max-width: 768px){
+    .navbarPage {
+        background-color: rgba(238,243,250);
+    }
+    .hero {
+        height: 1000px;
+    }
+    .hero::before {
+        display: none;
+    }
+    .hero-info {
+        width: 100%;
+    }
+    .figura {
+        display: none;
+    }
+    /*.trianguloHeader1 {
+        display: none;
+    }
+    .trianguloHeader2 {
+        display: none;
+    }*/
+    .titlePrimary {
+        font-size: 30px;
+    }
+    .bloque-motivos {
+        width: 100%;
+        float: left;
+    }
+    /*.bloque-señal {
+        width: 100%;
+        display: none;
+    }
+    .triangulo {
+        display: none;
+    }
+    .linea {
+        display: none;
+    }
+    .bloque-señal2 {
+        width: 100%;
+        display: none;
+    }*/
+    .bloque-recomendaciones {
+        width: 100%;
+        float: left;
+    }
+    /*.triangulo2 {
+        display: none;
+    }
+    .linea2 {
+        display: none;
+    }
+    .bloque-señal3 {
+        width: 100%;
+        display: none;
+    }*/
+    .bloque-contacto {
+        width: 100%;
+        float: left;
+    }
+    /*.triangulo3 {
+        display: none;
+    }
+    .linea3 {
+        display: none;
+    }*/
+    .footer {
+        padding: 10px 0;
+    }
+    .footer-primary {
+        display: none;
+    }
+    /*.trianguloFooter {
+        display: none;
+    }*/
+}
