@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-12 col-sm-3">
                             <h2>Vacunate</h2>
-                            <p>Nuestro objetivo es ayudar al mundo a liberarse de la pandemia en curso.</p>
+                            <p>Nuestro objetivo es ayudar a las personas a liberarse de la pandemia en curso.</p>
                         </div>
                         <div class="col-12 col-sm-3">
                             <h3>Organismos</h3>

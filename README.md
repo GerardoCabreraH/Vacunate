@@ -1,9 +1,14 @@
 # LaunchX Despliegue de la práctica de CSS en Laravel
 
-La práctica se implemento en el Framework Laravel y se subió al servidor. Consiste en una pastelería con un formulario para que el cliente haga su pedido mientras que el pastelero pueda ver las existencias de los sabores y adornos así como los ingresos.
+La práctica se implemento en el Framework Laravel y se subió al servidor. Consiste en una asociación civil para concientizar y agilizar el proceso de vacunación. Tiene paginas extras como un cazamitos, el paciente se debe de registrarse a un modulo de vacunación, una pagina de términos y condiciones, política de privacidad y un panel de administrador para administrar los módulos.
 
-- [Pagina en el servidor](https://pasteleria.celtech.com.mx/vacunas/).
-- [Repositorio donde se encuentra la práctica en HTML](https://github.com/GerardoCabreraH/FrontEndMisionCSS).
+- [Pagina en el servidor compartido](https://pasteleria.celtech.com.mx/vacunas/).
+- [Pagina del cazamitos](https://pasteleria.celtech.com.mx/vacunas/cazador-de-mitos).
+- [Pagina para registrarse a un modulo](https://pasteleria.celtech.com.mx/vacunas/reservar-lugar-para-tu-vacuna/m00122).
+- [Pagina de términos y condiciones](https://pasteleria.celtech.com.mx/vacunas/terminos-y-condiciones).
+- [Pagina de política de privacidad](https://pasteleria.celtech.com.mx/vacunas/politica-de-privacidad).
+- [Pagina de panel de administrador (Se debe de iniciar sesión)](https://pasteleria.celtech.com.mx/vacunas/admin).
+- [Repositorio donde se encuentra la práctica en HTML y CSS](https://github.com/GerardoCabreraH/FrontEndMisionCSS).
 
 Implementación al servidor local
 - Descargar o clonar el repositorio
@@ -13,7 +18,7 @@ Implementación al servidor local
 - Crear una base de datos mediante MYSQL
 - Migrar las tablas de la aplicación a la base de datos recién creada y se llenaran con los datos de ejemplo `php artisan migrate --seed`. 
 
-Cuenta demo para entrar al sistema de pastelero
+Cuenta demo para entrar al sistema de administración
 
 - Email: `admin@correo.com` 
 - Contraseña: `123administrador456` 
