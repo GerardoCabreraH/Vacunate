@@ -42,16 +42,16 @@
                             <div class="trianguloHeader1"></div>
                         </div>
                         <h1 class="titlePrimary">Lucha contra el virus<br>Con las vacunas</h1>
-                        <p class="pr-5">Detengamos esta pandemia matando el virus con una vacuna, no permita que usted y
-                            su familia se infecten.</p>
+                        <p class="pr-5">Detengamos esta pandemia matando el virus con una vacuna, no permita que usted y su familia se
+                            infecten.</p>
                         <div class="row pr-5">
                             <div class="col-12 col-sm-6">
-                                <p><span class="icon-hero-info"><i class="fas fa-shield-alt"></i></span> <span
-                                        class="titleSecondary">Mejor protección</span></p>
+                                <p><span class="icon-hero-info"><i class="fas fa-shield-alt"></i></span> <span class="titleSecondary">Mejor
+                                        protección</span></p>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <p><span class="icon-hero-info"><i class="fas fa-star"></i></span> <span
-                                        class="titleSecondary">Vacunas aprobadas</span></p>
+                                <p><span class="icon-hero-info"><i class="fas fa-star"></i></span> <span class="titleSecondary">Vacunas
+                                        aprobadas</span></p>
                             </div>
                         </div>
                         <div class="figura">
