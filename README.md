@@ -2,12 +2,6 @@
 
 La práctica se implemento en el Framework Laravel y se subió al servidor. Consiste en una asociación civil para concientizar y agilizar el proceso de vacunación. Tiene paginas extras como un cazamitos, el paciente se debe de registrarse a un modulo de vacunación, una pagina de términos y condiciones, política de privacidad y un panel de administrador para administrar los módulos.
 
-- [Pagina en el servidor compartido](https://pasteleria.celtech.com.mx/vacunas/).
-- [Pagina del cazamitos](https://pasteleria.celtech.com.mx/vacunas/cazador-de-mitos).
-- [Pagina para registrarse a un modulo](https://pasteleria.celtech.com.mx/vacunas/reservar-lugar-para-tu-vacuna/m00122).
-- [Pagina de términos y condiciones](https://pasteleria.celtech.com.mx/vacunas/terminos-y-condiciones).
-- [Pagina de política de privacidad](https://pasteleria.celtech.com.mx/vacunas/politica-de-privacidad).
-- [Pagina de panel de administrador (Se debe de iniciar sesión)](https://pasteleria.celtech.com.mx/vacunas/admin).
 - [Repositorio donde se encuentra la práctica en HTML y CSS](https://github.com/GerardoCabreraH/FrontEndMisionCSS).
 
 Implementación al servidor local
